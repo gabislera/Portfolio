@@ -18,7 +18,7 @@ const About = () => {
           </div>
         </div>
         <div className='about-content'>
-          <div className='about-cards'>
+          {/* <div className='about-cards'>
             <article className='about-card'>
               <FaAward className='about-icon' />
               <h1>Experience</h1>
@@ -36,9 +36,17 @@ const About = () => {
               <h1>Projects</h1>
               <h2>80+ completed</h2>
             </article>
-          </div>
+          </div> */}
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, soluta. Laborum quis sit maiores error libero? Sunt exercitationem tempore fugiat itaque quaerat? Similique, exercitationem rem. Id excepturi repellendus eius quam!</p>
+          <p>
+            Olá! Meu nome é Gabriela, tenho 30 anos e sou uma desenvolvedora Front End em busca de novas oportunidades de aprendizado e crescimento profissional.
+          </p>
+          <p>
+            Minhas principais habilidades incluem HTML, CSS, JavaScript e React. Além disso, tenho conhecimentos em UX/UI design, o que me permite criar interfaces mais intuitivas e atraentes para os usuários.
+          </p>
+          <p>
+            Estou sempre aberta a novos desafios e projetos que possam contribuir para o meu desenvolvimento profissional e pessoal. Se você estiver procurando por um desenvolvedor dedicado e comprometido, fique à vontade para entrar em contato comigo. Será um prazer trabalhar com você!
+          </p>
 
           <a className='btn btn-primary' href="#contact">Let's Talk</a>
         </div>

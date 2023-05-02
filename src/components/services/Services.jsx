@@ -11,32 +11,42 @@ const Services = () => {
       <div className='container services-container'>
         <article className='service'>
           <div className='service-head'>
-            <h3>UI/UX Design</h3>
+            <h3>React</h3>
           </div>
           <ul className='service-list'>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Hooks
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>React Router
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>useContext
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>CSS Modules
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>PropTypes
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>Componentes funcionais
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>Eventos
               </p>
             </li>
           </ul>
@@ -44,37 +54,47 @@ const Services = () => {
 
         <article className='service'>
           <div className='service-head'>
-            <h3>Web Development</h3>
+            <h3>Javascript</h3>
           </div>
           <ul className='service-list'>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Objetos
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Strings
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Arrays
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Promisses
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Fetch
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>NPM
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>GIT
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>RegExp
               </p>
             </li>
           </ul>
@@ -82,34 +102,30 @@ const Services = () => {
 
         <article className='service'>
           <div className='service-head'>
-            <h3>Content Creation</h3>
+            <h3>HTML/CSS</h3>
           </div>
           <ul className='service-list'>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Grid layout
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>FlexBox
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>Layout Responsivo
               </p>
             </li>
             <li>
               <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
+              <p>HTML semântico
               </p>
             </li>
-            <li>
-              <BiCheck className='service-list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.
-              </p>
-            </li>
+
           </ul>
         </article>
       </div>

@@ -1,52 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
+// import IMG1 from '../../assets/portfolio1.png'
+import IMG1 from '../../assets/toDoList.jpg'
+import IMG2 from '../../assets/cats.jpg'
+import IMG3 from '../../assets/bikcraft.jpg'
+import IMG4 from '../../assets/animaisfantasticos.jpg'
+import IMG5 from '../../assets/pokedex.jpg'
+import IMG6 from '../../assets/calculadora.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Portfolio title 1',
+    title: 'To Do List com React',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio title 2',
+    title: 'Rede social com React',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Portfolio title 3',
+    title: 'Bikcraft',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Portfolio title 4',
+    title: 'Animais Fantásticos',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Portfolio title 5',
+    title: 'Pokedéx',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Portfolio title 6',
+    title: 'Calculadora',
     github: 'https://github.com',
     demo: 'https://github.com',
   }
