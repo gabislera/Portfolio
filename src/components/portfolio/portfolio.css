@@ -23,13 +23,15 @@
 }
 
 .portfolio-item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0;
 }
 
 .portfolio-item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  /* justify-content: space-between; */
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -37,4 +39,15 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+}
+
+.video {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+video {
+  width: 100%;
+  max-width: 32rem;
 }
