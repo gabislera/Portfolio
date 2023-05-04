@@ -1,10 +1,4 @@
 import './portfolio.css'
-import IMG1 from '../../assets/toDoList.jpg'
-import IMG2 from '../../assets/cats.jpg'
-import IMG3 from '../../assets/bikcraft.jpg'
-import IMG4 from '../../assets/animaisfantasticos.jpg'
-import IMG5 from '../../assets/pokedex.jpg'
-import IMG6 from '../../assets/calculadora.jpg'
 import VID1 from '../../assets/video1.mp4'
 import VID2 from '../../assets/video2.mp4'
 import VID3 from '../../assets/video3.mp4'
@@ -12,8 +6,6 @@ import VID4 from '../../assets/video4.mp4'
 import VID5 from '../../assets/video5.mp4'
 import VID6 from '../../assets/video6.mp4'
 import PortfolioVideo from './PortfolioVideo'
-import { useRef } from 'react'
-
 
 const dataVideo = [
   {

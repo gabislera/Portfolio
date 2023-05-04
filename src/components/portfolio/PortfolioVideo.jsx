@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import './portfolioVideo.css'
 
 const PortfolioVideo = ({ id, image, title, github, demo }) => {
   const ref = useRef()
@@ -12,13 +13,19 @@ const PortfolioVideo = ({ id, image, title, github, demo }) => {
     ref.current.currentTime = 0;
   }
 
+  useEffect(() => {
+    ref.current?.pause()
+    ref.current.currentTime = 0;
+  }, [])
 
   return (
     <div key={id} className='portfolio-item'>
       <div className='portfolio-item-image'>
         <video
           muted
-
+          playsInline
+          loop
+          autoPlay
           src={image}
           alt={title}
           onMouseEnter={handleMouseEnter}

@@ -9,7 +9,7 @@
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 1rem;
-  border: .4rem solid var(--color--primary-variant);
+  border: .25rem solid var(--color-bg);
 }
 
 .testimonial {
@@ -18,6 +18,10 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+}
+
+.client-name {
+  font-size: .7rem;
 }
 
 .client-review {
