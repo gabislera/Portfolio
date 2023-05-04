@@ -1,10 +1,10 @@
-.portfolio-container {
+.projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
 
-.portfolio-item {
+.projects-item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 3rem;
@@ -12,27 +12,27 @@
   transition: var(--transition);
 }
 
-.portfolio-item:hover {
+.projects-item:hover {
   border-color: var(--color--primary-variant);
   background: transparent;
 }
 
-.portfolio-item-image {
+.projects-item-image {
   overflow: hidden;
 }
 
-.portfolio-item h3 {
+.projects-item h3 {
   margin: 1.2rem 0;
 }
 
-.portfolio-item-cta {
+.projects-item-cta {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
 @media (max-width: 600px) {
-  .portfolio-container {
+  .projects-container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }

@@ -17,25 +17,26 @@ const dataTestimonials = [
   {
     avatar: AVTR1,
     name: 'UNOPAR',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur iusto quo eaque, ipsum doloribus laborum delectus consectetur soluta exercitationem molestiae, adipisci dolore consequatur accusamus enim quis saepe. Totam, explicabo.'
+    sub: 'Análise e desenvolvimento de sistemas',
+    review: 'Em andamento'
   },
   {
     avatar: AVTR2,
     name: 'Origamid',
     sub: 'React Completo',
-    review: 'Hooks, React Router, useContext, CSS Modules, PropTypes, Componentes funcionais, Propriedades, Eventos'
+    review: 'Hooks, React Router, useContext, CSS Modules, PropTypes, Eventos'
   },
   {
     avatar: AVTR2,
     name: 'Origamid',
     sub: 'Javascript Completo ES6+',
-    review: 'Objetos, Strings, Arrays, Promisses, Fetch, RegExp, NPM, Git, Babel, Webpack, Javascript'
+    review: 'Objetos, Strings, Arrays, Promisses, Fetch, RegExp, NPM, Git, Babel, Webpack '
   },
   {
     avatar: AVTR2,
     name: 'Origamid',
     sub: 'HTML e CSS para iniciantes',
-    review: 'HTML, CSS, JavaScript, Git, CSS Grid Layout, CSS FlexBox, Layout Responsivo, Front End'
+    review: 'HTML, CSS, JavaScript, Git, CSS Grid Layout, CSS FlexBox, Layout Responsivo'
   },
   {
     avatar: AVTR3,

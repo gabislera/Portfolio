@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
-import './portfolioVideo.css'
+import './projectsVideo.css'
 
-const PortfolioVideo = ({ id, image, title, github, demo }) => {
+const ProjectsVideo = ({ id, image, title, github, demo }) => {
   const ref = useRef()
 
   const handleMouseEnter = () => {
@@ -19,8 +19,8 @@ const PortfolioVideo = ({ id, image, title, github, demo }) => {
   }, [])
 
   return (
-    <div key={id} className='portfolio-item'>
-      <div className='portfolio-item-image'>
+    <div key={id} className='projects-item'>
+      <div className='projects-item-image'>
         <video
           muted
           playsInline
@@ -33,7 +33,7 @@ const PortfolioVideo = ({ id, image, title, github, demo }) => {
           ref={ref} />
       </div>
       <h3>{title}</h3>
-      <div className='portfolio-item-cta'>
+      <div className='projects-item-cta'>
         <a className='btn' href={github} target='_blank' >Github</a>
         <a className='btn btn-primary' href={demo} target='_blank' >Demo</a>
       </div>
@@ -41,4 +41,4 @@ const PortfolioVideo = ({ id, image, title, github, demo }) => {
   )
 }
 
-export default PortfolioVideo
+export default ProjectsVideo

@@ -1,11 +1,11 @@
-import './portfolio.css'
+import './projects.css'
 import VID1 from '../../assets/video1.mp4'
 import VID2 from '../../assets/video2.mp4'
 import VID3 from '../../assets/video3.mp4'
 import VID4 from '../../assets/video4.mp4'
 import VID5 from '../../assets/video5.mp4'
 import VID6 from '../../assets/video6.mp4'
-import PortfolioVideo from './PortfolioVideo'
+import ProjectsVideo from './ProjectsVideo'
 
 const dataVideo = [
   {
@@ -52,16 +52,16 @@ const dataVideo = [
   }
 ]
 
-const Portfolio = () => {
+const Projects = () => {
   return (
-    <section id='portfolio'>
+    <section id='projects'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
-      <div className='container portfolio-container'>
+      <div className='container projects-container'>
         {
           dataVideo.map(({ id, image, title, github, demo }) => {
-            return <PortfolioVideo
+            return <ProjectsVideo
               key={id}
               id={id}
               image={image}
@@ -76,4 +76,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects
