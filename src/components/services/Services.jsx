@@ -1,4 +1,3 @@
-import React from 'react'
 import './services.css'
 import { BiCheck } from 'react-icons/bi'
 
@@ -105,6 +104,11 @@ const Services = () => {
             <h3>HTML/CSS</h3>
           </div>
           <ul className='service-list'>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>TailwindCSS
+              </p>
+            </li>
             <li>
               <BiCheck className='service-list-icon' />
               <p>Grid layout

@@ -1,4 +1,3 @@
-import React from 'react'
 import './experience.css'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
 
@@ -40,6 +39,20 @@ const Experience = () => {
                 <small>Intermediate</small>
               </div>
             </article>
+            <article className='experience-details'>
+              <BsFillPatchCheckFill className='experience-details-icon' />
+              <div>
+                <h4>Tailwind</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <BsFillPatchCheckFill className='experience-details-icon' />
+              <div>
+                <h4>NextJs</h4>
+                <small>Basic</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -71,6 +84,13 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>Premiere</h4>
+                <small>Basic</small>
+              </div>
+            </article>
+            <article className='experience-details'>
+              <BsFillPatchCheckFill className='experience-details-icon' />
+              <div>
+                <h4>UI/UX</h4>
                 <small>Basic</small>
               </div>
             </article>
