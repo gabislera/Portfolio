@@ -7,7 +7,7 @@
 .projects-item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
-  border-radius: 3rem;
+  border-radius: 1.8rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }
