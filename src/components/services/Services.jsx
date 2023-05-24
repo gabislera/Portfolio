@@ -129,6 +129,11 @@ const Services = () => {
               <p>HTML semântico
               </p>
             </li>
+            <li>
+              <BiCheck className='service-list-icon' />
+              <p>Styled Components
+              </p>
+            </li>
 
           </ul>
         </article>

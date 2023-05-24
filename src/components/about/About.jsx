@@ -39,13 +39,13 @@ const About = () => {
           </div> */}
 
           <p>
-            Olá! Meu nome é Gabriela, tenho 30 anos e sou uma desenvolvedora Front End em busca de novas oportunidades de aprendizado e crescimento profissional.
+            Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por inovação, jogos e tecnologia. Já trabalhei com fotografia e estudei comunicação, mas foi na área de desenvolvimento Front End que me encontrei. Possuo certificação em HTML, CSS, Javascript e React.
           </p>
           <p>
-            Minhas principais habilidades incluem HTML, CSS, JavaScript e React. Além disso, tenho conhecimentos em UX/UI design, o que me permite criar interfaces mais intuitivas e atraentes para os usuários.
+            Além disso, tenho conhecimento em NextJs, TailwindCSS e React Native e estou estudando Typscript no momento. Através de estudos com UX/UI design, também entendo de criação de interfaces intuitivas e atraentes para os usuários.
           </p>
           <p>
-            Estou sempre aberta a novos desafios e projetos que possam contribuir para o meu desenvolvimento profissional e pessoal. Se você estiver procurando por um desenvolvedor dedicado e comprometido, fique à vontade para entrar em contato comigo. Será um prazer trabalhar com você!
+            Sou uma pessoa que não tem medo de novos desafios e está sempre aberta para eles, interessada em projetos que possam aprimorar o meu conhecimento e contribuir para o meu desenvolvimento pessoal e profissional. Eu me adapto fácil à novas ferramentas e estou em constante aprendizado, tentando sempre acompanhar as demandas em constante evolução da área.
           </p>
 
           <a className='btn btn-primary' href="#contact">Let's Talk</a>
