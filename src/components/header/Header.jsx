@@ -1,4 +1,3 @@
-import React from 'react'
 import './header.css'
 import Buttons from './Buttons'
 import ProfilePhoto from '../../assets/profile1.png'
